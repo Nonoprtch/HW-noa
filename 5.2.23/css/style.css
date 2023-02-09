@@ -1,0 +1,9 @@
+#keypad{
+    display: grid;
+    justify-content: center;
+    
+}
+
+.col {
+    background-color: white;
+}
