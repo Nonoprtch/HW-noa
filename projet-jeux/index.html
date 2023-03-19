@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="./font/digital-7.ttf" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div id="main">
+        <button class= "btnStart"></button>
+        <div id="popup">
+            <p>Voici les consignes: <br>
+                Essaie d'attraper la barre qui tourne avant qu'elle ne s'echappe, vous avez 5 niveau et 10 cliques
+                par niveau, attention elle est plus rapide a chaque niveau.
+                Bonne chance!
+            </p>
+            <button onclick="closePopup()">Fermer</button>
+          </div>
+    </div>
+    <div id="container">
+        <div class="ecranNoir" >
+            <button class="btnTurn" >PLAY</button>
+
+        </div>
+        <div class="partieScore">
+           <div class="score">Score:</div> 
+            <div class="point">Point to next level:</div>
+            <div class="level">Level:</div>
+            <div class="missedClicks">Missed clicks:</div>
+            <div class="timer">Timer:</div>
+            <div class="hightScore">High score: </div>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>
